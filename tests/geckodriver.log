@@ -117,3 +117,15 @@ DevTools listening on ws://127.0.0.1:58221/devtools/browser/a1a65635-a779-4195-9
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://duckduckgo.com."
 1665336501579	Marionette	INFO	Stopped listening on port 58230
 JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1665346113826	geckodriver	INFO	Listening on 127.0.0.1:50675
+1665346116894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50676" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofilePxVF6e"
+1665346117365	Marionette	INFO	Marionette enabled
+1665346117370	Marionette	INFO	Listening on port 50685
+WebDriver BiDi listening on ws://127.0.0.1:50676
+Read port: 50685
+1665346117618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofilePxVF6e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50676/devtools/browser/13c3fe14-b3e7-4ad0-ac58-b75bbfbdf247
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://duckduckgo.com."
+1665346121258	Marionette	INFO	Stopped listening on port 50685
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
