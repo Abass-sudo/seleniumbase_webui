@@ -154,3 +154,43 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1665358374739	Marionette	INFO	Stopped listening on port 56810
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
 JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1665359284435	geckodriver	INFO	Listening on 127.0.0.1:57509
+1665359287497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57510" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofileOIQMlx"
+1665359288001	Marionette	INFO	Marionette enabled
+1665359288006	Marionette	INFO	Listening on port 57520
+WebDriver BiDi listening on ws://127.0.0.1:57510
+Read port: 57520
+1665359288230	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofileOIQMlx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57510/devtools/browser/c108eecf-ce32-4453-9c78-5c6d93dd925f
+1665359298026	Marionette	INFO	Stopped listening on port 57520
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1665359309111	geckodriver	INFO	Listening on 127.0.0.1:57561
+1665359312151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57562" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofileIfeE7o"
+1665359312498	Marionette	INFO	Marionette enabled
+1665359312504	Marionette	INFO	Listening on port 57571
+WebDriver BiDi listening on ws://127.0.0.1:57562
+Read port: 57571
+1665359312744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofileIfeE7o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57562/devtools/browser/1f88d3b3-de84-4f10-94eb-b5ef3e7b866e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://duckduckgo.com."
+1665359316019	Marionette	INFO	Stopped listening on port 57571
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1665359362476	geckodriver	INFO	Listening on 127.0.0.1:57668
+1665359365526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57669" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofilen03p9V"
+1665359365867	Marionette	INFO	Marionette enabled
+1665359365872	Marionette	INFO	Listening on port 57678
+WebDriver BiDi listening on ws://127.0.0.1:57669
+Read port: 57678
+1665359366119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofilen03p9V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57669/devtools/browser/a4c7d33c-fdec-4b68-91b4-5e89204bf012
+1665359376272	Marionette	INFO	Stopped listening on port 57678
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

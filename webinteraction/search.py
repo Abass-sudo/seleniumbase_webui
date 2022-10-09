@@ -4,8 +4,8 @@ from selenium.webdriver.common.keys import Keys
 
 class DuckDuckGoSearchPage:
     URL = 'https://www.duckduckgo.com'
-    SEARCH_INPUT = (By.ID, 'search_form_input_homepage')
-
+    #SEARCH_INPUT = (By.ID, 'search_form_input_homepage')
+    SEARCH_INPUT = (By.XPATH, '//*[@id="search_form_input_homepage"]')
     def __init__(self, browser):
         self.browser = browser
 
