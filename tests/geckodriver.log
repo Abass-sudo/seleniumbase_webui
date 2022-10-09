@@ -141,3 +141,16 @@ DevTools listening on ws://127.0.0.1:55100/devtools/browser/6b567215-11e0-41e6-b
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://duckduckgo.com."
 1665355266929	Marionette	INFO	Stopped listening on port 55109
 JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
+1665358367929	geckodriver	INFO	Listening on 127.0.0.1:56800
+1665358371008	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56801" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofile5JyWkE"
+1665358371455	Marionette	INFO	Marionette enabled
+1665358371460	Marionette	INFO	Listening on port 56810
+WebDriver BiDi listening on ws://127.0.0.1:56801
+Read port: 56810
+1665358371717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\abass\\AppData\\Local\\Temp\\rust_mozprofile5JyWkE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56801/devtools/browser/e1086939-b6d2-4d08-a14e-e0efb7e63e8e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://duckduckgo.com."
+1665358374739	Marionette	INFO	Stopped listening on port 56810
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 693: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://services-settings/Utils.jsm, line 239: TypeError: NetworkError: Network request failed
